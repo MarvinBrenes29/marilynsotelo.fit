@@ -1,0 +1,188 @@
+:root {
+    --primary: #D7129A;
+    --secondary: #F6CAE8;
+    --grey: #3B3B3B;
+    --black: #1F1E1E;
+    --mainTipografy: "Poppins", sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+/** Global**/
+.container {
+    max-width: 140rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    font-family: var(--mainTipografy);
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: white;
+    margin: 0;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+.hero {
+  min-height: 100vh;
+  background: url("/assets/img/bgGray.png") center / cover no-repeat;
+}
+
+.hero__center {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+.hero__content{
+    padding: 6rem;
+}
+}
+
+.progress {
+  width: 100%;
+  height: 15px;
+  margin-top: 2rem;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.progress::-webkit-progress-bar {
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+.progress::-webkit-progress-value {
+  background-color: var(--primary);
+  border-radius: 10px;
+}
+
+.progress::-moz-progress-bar {
+  background-color: var(--primary);
+  border-radius: 10px;
+}
+
+.progress__number {
+  color: #ffffff;
+  font-weight: 700;
+  font-family: var(--mainTipografy);
+  text-align: center;
+  margin: 0;
+}
+.info-cards {
+  font-family: var(--mainTipografy);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .info-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+}
+
+.info-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: border 0.2s ease;
+}
+
+.info-card:hover {
+  border: 3px solid var(--primary);
+}
+
+.info-card__icon {
+  width: 26px;
+  height: 26px;
+}
+
+.info-card__text {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  white-space: nowrap;
+}
+.site-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.site-brand__logo {
+  height: 10rem;
+  margin-bottom: 2rem;
+}
+
+.site-brand__link {
+  font-family: var(--mainTipografy);
+  color: white;
+  text-decoration: none;
+}
+
+.site-brand__link:hover {
+  color: var(--primary);
+  cursor: pointer;
+}
+.whatsapp-btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 100;
+}
+
+.whatsapp-btn__icon {
+  height: 5rem;
+}
