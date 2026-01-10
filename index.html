@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Marilyn Sotelo Coach</title>
     <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/ui/logo_simple.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,45 +13,95 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-slate-50">
 
     <header>
-      <nav class="flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 border-b border-gray-300 bg-white relative transition-all">
-    <a href="https://prebuiltui.com">
-        <img class="h-24" src="assets/icons/ui/logo.png" alt="dummyLogoColored">
-    </a>
+        <nav
+            class="flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 border-b border-gray-300 bg-white relative transition-all">
+            <a href="">
+                <img class="h-24" src="assets/icons/ui/logo.png" alt="dummyLogoColored">
+            </a>
 
-    <button aria-label="Menu" id="menu-toggle" class="sm:hidden">
-        <svg width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="21" height="1.5" rx=".75" fill="#426287"/>
-            <rect x="8" y="6" width="13" height="1.5" rx=".75" fill="#426287"/>
-            <rect x="6" y="13" width="15" height="1.5" rx=".75" fill="#426287"/>
-        </svg>
-    </button>
+            <button aria-label="Menu" id="menu-toggle" class="sm:hidden">
+                <svg width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="21" height="1.5" rx=".75" fill="#426287" />
+                    <rect x="8" y="6" width="13" height="1.5" rx=".75" fill="#426287" />
+                    <rect x="6" y="13" width="15" height="1.5" rx=".75" fill="#426287" />
+                </svg>
+            </button>
 
-    <div id="mobile-menu" class="hidden absolute top-[60px] left-0 w-full bg-white shadow-md py-4 flex-col items-start gap-2 px-5 text-sm md:hidden">
-        <a href="#" class="block">Inicio</a>
-        <a href="#" class="block">Planes</a>
-        <a href="#" class="block">Sobre Mi</a>
-    </div>
+            <div id="mobile-menu"
+                class="hidden absolute top-[60px] left-0 w-full bg-white shadow-md py-4 flex-col items-start gap-2 px-5 text-sm md:hidden">
+                <a href="#" class="block">Inicio</a>
+                <a href="#" class="block">Planes</a>
+                <a href="#" class="block">Sobre Mi</a>
+            </div>
 
-    <div class="hidden sm:flex items-center gap-8">
-        <a href="#">Inicio</a>
-        <a href="#">Planes</a>
-        <a href="#">Sobre Mi</a>
-    </div>
-</nav>
+            <div class="hidden sm:flex items-center gap-8">
+                <a href="#">Inicio</a>
+                <a href="#">Planes</a>
+                <a href="#">Sobre Mi</a>
+            </div>
+        </nav>
     </header>
+
+    <main class="l-wrapper mb-5">
+        <div class="text-center mt-5">
+            <h1 class="">Lorem Ipsum dolor sit ammet consectetur</h1>
+            <small class="">Scelrisque nulla</small>
+        </div>
+
+
+        <div
+            class="max-w-[270px] bg-white rounded-xl shadow-lg overflow-hidden border-b-[6px] border-[#ee4d4d] font-sans border border-gray-100 ">
+
+            <div class="py-4 border-b border-gray-100">
+                <h2 class="text-xl font-semibold text-gray-700 text-center">Plan Básico</h2>
+            </div>
+
+            <div class="p-5">
+                <div class="flex items-baseline justify-center mb-4 mt-2">
+                    <span class="text-4xl font-bold text-[#ee4d4d]">$15</span>
+                    <span class="text-gray-400 ml-1 text-[10px] uppercase tracking-wider">Lorem Ipsum</span>
+                </div>
+
+                <p class="text-gray-500 text-xs leading-normal mb-5 text-left">
+                    Lorem ipsum dolor sit amet consectetur. Quam urna sit amet consectetur.
+                </p>
+
+                <ul class="space-y-3 mb-6">
+                    <li class="flex items-start text-left text-gray-600">
+                        <span class="text-[#ee4d4d] mr-2 text-sm mt-0.5">✔</span>
+                        <span class="text-[11px] leading-tight">Lorem ipsum dolor sit amet</span>
+                    </li>
+                    <li class="flex items-start text-left text-gray-600">
+                        <span class="text-[#ee4d4d] mr-2 text-sm mt-0.5">✔</span>
+                        <span class="text-[11px] leading-tight">Lorem ipsum dolor sit amet</span>
+                    </li>
+                    <li class="flex items-start text-left text-gray-600">
+                        <span class="text-[#ee4d4d] mr-2 text-sm mt-0.5">✔</span>
+                        <span class="text-[11px] leading-tight">Lorem ipsum dolor sit amet</span>
+                    </li>
+                    <li class="flex items-start text-left text-gray-600">
+                        <span class="text-[#ee4d4d] mr-2 text-sm mt-0.5">✔</span>
+                        <span class="text-[11px] leading-tight">Lorem ipsum dolor sit amet</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+
 
     <footer>
         <div class="bg-neutral-700 py-4">
             <div class="container mx-auto px-4 flex flex-col items-center mb-5">
                 <a href="/" aria-label="Ir al inicio">
-                    <img class="h-32 w-auto" src="assets/icons/ui/logo.png" alt="Marilyn Sotelo Coach">
+                    <img class="h-20 w-auto" src="assets/icons/ui/white_logo.png" alt="Marilyn Sotelo Coach">
                 </a>
 
                 <nav aria-label="Navegación del sitio">
-                    <ul class="text-white">
+                    <ul class="text-white flex flex-row gap-x-6 justify-center mt-4 mb-4">
                         <li><a href="#">Inicio</a></li>
                         <li><a href="#">Planes</a></li>
                         <li><a href="#">Sobre mí</a></li>
@@ -58,7 +109,7 @@
                 </nav>
             </div>
 
-            <div class="mt-2">
+            <div class="mb-4">
                 <nav aria-label="Redes sociales">
                     <ul class="flex gap-4 justify-center">
                         <li class="mr-2">
@@ -90,7 +141,7 @@
             </div>
         </div> <!--Bg-->
         <div class=" bg-neutral-300 p-3 flex justify-center">
-            <small class="font-normal text-zinc-600">© 2026 Marilyn Sotelo Coach. Todos los derechos reservados.</small>
+            <small class="font-normal text-zinc-600">Marilyn Sotelo Coach. Todos los derechos reservados. © 2026 </small>
         </div>
     </footer>
 
@@ -99,4 +150,5 @@
 
 
 <script type="module" src="assets/js/main.js"> </script>
+
 </html>
