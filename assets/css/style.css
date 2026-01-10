@@ -1,0 +1,15 @@
+:root {
+    --primary: #D7129A;
+    --secondary: #F6CAE8;
+    --mainTipografy: "Poppins", sans-serif;
+}
+
+.l-wrapper{
+    max-width: 140rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: var(--mainTipografy)
+}
