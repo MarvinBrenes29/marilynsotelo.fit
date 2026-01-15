@@ -46,3 +46,11 @@ body {
 .button:focus {
   background-color: #F082AC;
 }
+
+.bg-cherry {
+  background-color: #76153C;
+}
+
+.bg-cherry-50 {
+  background-color: #bea5ab;
+}
