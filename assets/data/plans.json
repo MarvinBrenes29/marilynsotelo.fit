@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Plan Déficit",
+    "description": "Pensado para personas que quieren bajar grasa corporal. Incluye guía nutricional, entrenamiento adaptado y seguimiento para lograr resultados reales y sostenibles.",
+    "icon": "assets/icons/ui/fitness.png"
+  },
+  {
+    "title": "Plan Suplementación",
+    "description": "Para quienes ya entrenan y quieren potenciar sus resultados. Recomendaciones claras sobre qué suplementos usar, cómo y cuándo tomarlos.",
+    "icon": "assets/icons/ui/whey.png"
+  },
+  {
+    "title": "Plan Cardio",
+    "description": "Ideal si tu objetivo es mejorar resistencia y condición física. Rutinas dinámicas, progresión controlada y enfoque en rendimiento cardiovascular.",
+    "icon": "assets/icons/ui/cardio.png"
+  }
+]
