@@ -1,0 +1,66 @@
+[
+  {
+    "id": "p1",
+    "name": "Cheesecake coco",
+    "description": "El gusto exclusivo de la semana diseñado para cuidar tus objetivos",
+    "image": "assets/img/cheescake.jpg",
+    "price": 3500,
+    "priceNote": "Por porción",
+    "currency": "₡",
+    "portion": "1 porción",
+    "badges": [
+      "Postre de la semana",
+      "9g proteína",
+      "20g carbohidratos"
+    ],
+    "ctaText": "Ordenar"
+  },
+  {
+    "id": "p2",
+    "name": "Pancakes Fit Pack",
+    "description": "Ideal como desayuno energético o merienda nutritiva post entreno",
+    "image": "assets/img/crepe.jpg",
+    "price": 12500,
+    "priceNote": "Desde",
+    "currency": "₡",
+    "portion": "5 a 10 porciones",
+    "badges": [
+      "Fibra Natural",
+      "Sin azúcares añadidos",
+      "Altos en Proteinas"
+    ],
+    "ctaText": "Ver paquetes"
+  },
+  {
+    "id": "p3",
+    "name": "Crepas Fit",
+    "description": "Ideales para desayunos rápidos o cenas ligeras fáciles de armar",
+    "image": "assets/img/crepe.jpeg",
+    "price": 9000,
+    "priceNote": "Desde",
+    "currency": "₡",
+    "portion": "5 a 10 porciones",
+    "badges": [
+      "Bajo en calorías",
+      "Base de avena",
+      "0% Grasas Trans"
+    ],
+    "ctaText": "Ver paquetes"
+  },
+  {
+    "id": "p4",
+    "name": "Queque de banano fit",
+    "description": "Ideal como merienda nutritiva o snack casero para toda tu semana",
+    "image": "assets/img/bananocake.jpeg",
+    "price": 13500,
+    "priceNote": "Por porción",
+    "currency": "₡",
+    "portion": "5 toppings",
+    "badges": [
+      "28g de proteína",
+      "14g de grasas",
+      "520 calorías"
+    ],
+    "ctaText": "Ordenar"
+  }
+]
