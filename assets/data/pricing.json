@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Plan M1",
+    "price": 40,
+    "period": "Mes",
+    "description": "Para personas que están empezando o retomando.",
+    "features": [
+      "4 sesiones presenciales",
+      "Rutina básica personalizada",
+      "Corrección técnica general",
+      "Seguimiento semanal por WhatsApp"
+    ],
+    "buttonText": "Más información",
+    "link": "https://wa.me/50670034188?text=Hola%20Marilyn%20%F0%9F%91%8B%0AEstoy%20interesado%20en%20el%20*Plan%20M1*.%0A%C2%BFMe%20podr%C3%ADas%20brindar%20m%C3%A1s%20informaci%C3%B3n%20sobre%20qu%C3%A9%20incluye%20y%20c%C3%B3mo%20funciona%3F%20%F0%9F%98%8A"
+
+  },
+    {
+    "title": "Plan M2",
+    "price": 60,
+    "period": "Mes",
+    "description": "Para quienes ya entrenan y quieren avanzar.",
+    "features": [
+      "8 sesiones presenciales",
+      "Ajustes de rutina quincenales",
+      "Análisis de técnica por video",
+      "Plan de alimentación guía"
+    ],
+    "buttonText": "Más información",
+    "link": "https://wa.me/50670034188?text=Hola%20Marilyn%20%F0%9F%91%8B%0AEstoy%20interesado%20en%20el%20*Plan%20M2*.%0A%C2%BFMe%20podr%C3%ADas%20brindar%20m%C3%A1s%20informaci%C3%B3n%20sobre%20qu%C3%A9%20incluye%20y%20c%C3%B3mo%20funciona%3F%20%F0%9F%98%8A"
+
+  },
+    {
+    "title": "Plan M3",
+    "price": 80,
+    "period": "Mes",
+    "description": "Para quienes buscan resultados claros.",
+    "features": [
+      "12 sesiones presenciales",
+      "Corrección técnica personalizada",
+      "Ajustes de nutrición",
+      "Evaluación mensual de progreso"
+    ],
+    "buttonText": "Más información",
+    "link": "https://wa.me/50670034188?text=Hola%20Marilyn%20%F0%9F%91%8B%0AEstoy%20interesado%20en%20el%20*Plan%20M3*.%0A%C2%BFMe%20podr%C3%ADas%20brindar%20m%C3%A1s%20informaci%C3%B3n%20sobre%20qu%C3%A9%20incluye%20y%20c%C3%B3mo%20funciona%3F%20%F0%9F%98%8A"
+  },
+    {
+    "title": "Plan M4",
+    "price": 100,
+    "period": "Mes",
+    "description": "Acompañamiento completo sin importar dónde estés.",
+    "features": [
+      "Rutina 100% personalizada",
+      "Revisión continua",
+      "Soporte prioritario",
+      "Videollamada semanal"
+    ],
+    "buttonText": "Más información",
+    "link": "https://wa.me/50670034188?text=Hola%20Marilyn%20%F0%9F%91%8B%0AEstoy%20interesado%20en%20el%20*Plan%20M4*.%0A%C2%BFMe%20podr%C3%ADas%20brindar%20m%C3%A1s%20informaci%C3%B3n%20sobre%20qu%C3%A9%20incluye%20y%20c%C3%B3mo%20funciona%3F%20%F0%9F%98%8A"
+  }
+]
