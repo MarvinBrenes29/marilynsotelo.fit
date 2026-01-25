@@ -49,9 +49,9 @@ export async function initProducts(containerId = 'productsContainer') {
 
           </div>
         
-            <button class="bg-cherry text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors">
+            <a href="${product.link}" class="bg-cherry text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors">
               ${product.ctaText}
-            </button>
+            </a>
           </div>
 
         </div>
