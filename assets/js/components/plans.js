@@ -18,7 +18,7 @@ export async function initPlans(containerId = 'plansContainer') {
         </div>
 
         <div>
-          <h4 class="font-semibold text-xl mb-2 text-dark">${plan.title}</h4>
+          <h4 class="font-semibold text-xl mb-2 text-primary">${plan.title}</h4>
           <p class="text-gray-600">${plan.description}</p>
         </div>
 

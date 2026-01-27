@@ -11,10 +11,11 @@ export async function initPricing(containerId = 'pricingContainer') {
     const plans = await response.json();
 
     container.innerHTML = plans.map(plan => `
-      <div class="w-full max-w-[300px] h-[500px] bg-white rounded-xl shadow-md border border-gray-100 hover:shadow-xl transition-shadow overflow-hidden flex flex-col">
+      <div class="w-full max-w-[300px] h-[525px] bg-white rounded-xl shadow-md border border-gray-100 hover:shadow-xl transition-shadow overflow-hidden flex flex-col">
         
         <div class="py-5 border-b border-gray-100 text-center">
-          <h2 class="text-xl font-bold text-gray-800">${plan.title}</h2>
+          <h2 class="text-xl font-bold text-primary">${plan.title}</h2>
+          <h4 class="text-sm text-grayx-800">${plan.subtitle}</h2>
         </div>
 
         <div class="p-6 flex flex-col flex-grow">

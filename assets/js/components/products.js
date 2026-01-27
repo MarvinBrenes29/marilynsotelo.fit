@@ -18,7 +18,7 @@ export async function initProducts(containerId = 'productsContainer') {
         <div class="p-4 space-y-3">
           
           <div>
-            <h4 class="text-xl font-bold text-gray-900">${product.name}</h4>
+            <h4 class="text-xl font-bold text-primary">${product.name}</h4>
             <p class="text-sm text-gray-600 line-clamp-2">${product.description}</p>
           </div>
 
