@@ -1,60 +1,64 @@
 [
   {
-    "title": "Plan M1",
-    "price": 40,
+    "title": "Plan M4",
+    "subtitle": "Plan ONLINE FULL",
+    "price": 199,
     "period": "Mes",
-    "description": "Para personas que están empezando o retomando.",
+    "description": "Plan Virtual",
     "features": [
-      "4 sesiones presenciales",
-      "Rutina básica personalizada",
-      "Corrección técnica general",
-      "Seguimiento semanal por WhatsApp"
+      "Personalización total: Rutina y Dieta",
+      "Protocolo de suplementación y vitaminas",
+      "Mentoría individual por videollamada.",
+      "Atención prioritaria"
     ],
     "buttonText": "Más información",
-    "link": "https://wa.me/50670034188?text=Hola%20Marilyn%20%F0%9F%91%8B%0AEstoy%20interesado%20en%20el%20*Plan%20M1*.%0A%C2%BFMe%20podr%C3%ADas%20brindar%20m%C3%A1s%20informaci%C3%B3n%20sobre%20qu%C3%A9%20incluye%20y%20c%C3%B3mo%20funciona%3F%20%F0%9F%98%8A"
-
-  },
-    {
-    "title": "Plan M2",
-    "price": 60,
-    "period": "Mes",
-    "description": "Para quienes ya entrenan y quieren avanzar.",
-    "features": [
-      "8 sesiones presenciales",
-      "Ajustes de rutina quincenales",
-      "Análisis de técnica por video",
-      "Plan de alimentación guía"
-    ],
-    "buttonText": "Más información",
-    "link": "https://wa.me/50670034188?text=Hola%20Marilyn%20%F0%9F%91%8B%0AEstoy%20interesado%20en%20el%20*Plan%20M2*.%0A%C2%BFMe%20podr%C3%ADas%20brindar%20m%C3%A1s%20informaci%C3%B3n%20sobre%20qu%C3%A9%20incluye%20y%20c%C3%B3mo%20funciona%3F%20%F0%9F%98%8A"
+    "link": "https://wa.me/50670034188?text=Hola%20Marilyn%20%F0%9F%91%8B%0AEstoy%20interesado%20en%20el%20*Plan%20M4*.%0A%C2%BFMe%20podr%C3%ADas%20brindar%20m%C3%A1s%20informaci%C3%B3n%20sobre%20qu%C3%A9%20incluye%20y%20c%C3%B3mo%20funciona%3F%20%F0%9F%98%8A"
 
   },
     {
     "title": "Plan M3",
-    "price": 80,
+    "price": 259,
+    "subtitle": "Plan Constancia",
     "period": "Mes",
-    "description": "Para quienes buscan resultados claros.",
+    "description": "12 sesiones presenciales",
     "features": [
-      "12 sesiones presenciales",
+      "Educación en hábitos básicos.",
+      "Ajustes de rutina quincenales",
       "Corrección técnica personalizada",
-      "Ajustes de nutrición",
       "Evaluación mensual de progreso"
     ],
     "buttonText": "Más información",
     "link": "https://wa.me/50670034188?text=Hola%20Marilyn%20%F0%9F%91%8B%0AEstoy%20interesado%20en%20el%20*Plan%20M3*.%0A%C2%BFMe%20podr%C3%ADas%20brindar%20m%C3%A1s%20informaci%C3%B3n%20sobre%20qu%C3%A9%20incluye%20y%20c%C3%B3mo%20funciona%3F%20%F0%9F%98%8A"
+
   },
     {
-    "title": "Plan M4",
-    "price": 100,
+    "title": "Plan M2",
+    "price": 160,
+    "subtitle": "Plan progreso ",
     "period": "Mes",
-    "description": "Acompañamiento completo sin importar dónde estés.",
+    "description": "8 sesiones presenciales",
     "features": [
-      "Rutina 100% personalizada",
-      "Revisión continua",
-      "Soporte prioritario",
-      "Videollamada semanal"
+      "8 sesiones presenciales",
+      "Rutina personalizada",
+      "Plan de alimentación personalizado",
+      "Análisis de técnica por video"
     ],
     "buttonText": "Más información",
-    "link": "https://wa.me/50670034188?text=Hola%20Marilyn%20%F0%9F%91%8B%0AEstoy%20interesado%20en%20el%20*Plan%20M4*.%0A%C2%BFMe%20podr%C3%ADas%20brindar%20m%C3%A1s%20informaci%C3%B3n%20sobre%20qu%C3%A9%20incluye%20y%20c%C3%B3mo%20funciona%3F%20%F0%9F%98%8A"
+    "link": "https://wa.me/50670034188?text=Hola%20Marilyn%20%F0%9F%91%8B%0AEstoy%20interesado%20en%20el%20*Plan%20M2*.%0A%C2%BFMe%20podr%C3%ADas%20brindar%20m%C3%A1s%20informaci%C3%B3n%20sobre%20qu%C3%A9%20incluye%20y%20c%C3%B3mo%20funciona%3F%20%F0%9F%98%8A"
+  },
+    {
+    "title": "Plan M1",
+    "price": 20,
+    "subtitle": "Plan inicio",
+    "period": "Semana",
+    "description": "1 sesion presencial",
+    "features": [
+      "Asesoramiento inicial",
+      "Rutina básica personalizada",
+      "Tips en alimentación y técnica",
+      "Seguimiento semanal por WhatsApp"
+    ],
+    "buttonText": "Más información",
+    "link": "https://wa.me/50670034188?text=Hola%20Marilyn%20%F0%9F%91%8B%0AEstoy%20interesado%20en%20el%20*Plan%20M1*.%0A%C2%BFMe%20podr%C3%ADas%20brindar%20m%C3%A1s%20informaci%C3%B3n%20sobre%20qu%C3%A9%20incluye%20y%20c%C3%B3mo%20funciona%3F%20%F0%9F%98%8A"
   }
 ]
