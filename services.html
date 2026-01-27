@@ -15,72 +15,90 @@
 
 <body>
 
-    <header>
-        <div class="bg-zinc-600">
-            <nav class="flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 relative transition-all">
-                <a href="">
-                    <img class="h-16" src="assets/img/logo.png" alt="">
-                </a>
+    <header class="relative">
+        <nav
+            class="absolute top-0 left-0 z-50 w-full flex items-center justify-between px-6 py-4 md:px-16 lg:px-24 xl:px-32 transition-all">
+            <a href="/">
+                <img class="h-16" src="assets/icons/ui/white_logo.png" alt="Cherry Fit Logo" />
+            </a>
 
-                <button aria-label="Menu" id="menu-toggle" class="sm:hidden">
-                    <svg width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect width="21" height="1.5" rx=".75" fill="#FFFFFF" />
-                        <rect x="8" y="6" width="13" height="1.5" rx=".75" fill="#FFFFFF" />
-                        <rect x="6" y="13" width="15" height="1.5" rx=".75" fill="#FFFFFF" />
-                    </svg>
-                </button>
+            <button aria-label="Menu" id="menu-toggle" class="sm:hidden group">
+                <svg width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="21" height="1.5" rx=".75" fill="white" />
+                    <rect x="8" y="6" width="13" height="1.5" rx=".75" fill="white" />
+                    <rect x="6" y="13" width="15" height="1.5" rx=".75" fill="white" />
+                </svg>
+            </button>
 
-                <div id="mobile-menu"
-                    class="hidden absolute top-[60px] left-0 w-full bg-white shadow-md py-4 flex-col items-start gap-2 px-5 text-sm md:hidden">
-                    <a href="index.html" class="block">Inicio</a>
-                    <a href="services.html" class="block">Planes</a>
-                    <a href="#" class="block">Sobre Mi</a>
-                </div>
+            <div id="mobile-menu"
+                class="hidden absolute top-[70px] left-0 w-full bg-black/90 backdrop-blur-md py-6 flex flex-col items-center gap-4 text-white text-lg md:hidden">
+                <a href="index.html" class="hover:underline decoration-2 underline-offset-4 transition-all">Inicio</a>
+                <a href="services.html" class="hover:underline decoration-2 underline-offset-4 transition-all">Planes</a>
+                <a href="index.html#sobre-mi" class="hover:underline decoration-2 underline-offset-4 transition-all">Sobre Mí</a>
+            </div>
 
-                <div class="hidden sm:flex items-center gap-8">
-                    <a class="text-white" href="index.html">Inicio</a>
-                    <a class="text-white" href="services.html">Planes</a>
-                    <a class="text-white" href="#">Sobre Mi</a>
-                </div>
-            </nav>
-            <section class="w-full h-[300px] md:h-[450px] flex flex-col items-center justify-center text-center px-6">
-                <h2 class="text-3xl md:text-5xl font-bold text-white mb-4">
-                    Servicios
-                </h2>
-                <h4 class="text-lg md:text-xl text-white max-w-2xl">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit sit amet consectetur adipisicing elit !
-                </h4>
-            </section>
-        </div>
+            <div class="hidden sm:flex items-center gap-8 text-white font-medium">
+                <a href="index.html" class="hover:underline decoration-2 underline-offset-4 transition-all">Inicio</a>
+                <a href="services.html" class="hover:underline decoration-2 underline-offset-4 transition-all">Planes</a>
+                <a href="index.html#sobre-mi" class="hover:underline decoration-2 underline-offset-4 transition-all">Sobre Mí</a>
+            </div>
+        </nav>
 
+        <section class=" relative h-screen w-full overflow-hidden bg-black">
+            <div class="absolute inset-0">
+                <img src="assets/img/banner_services.jpeg" alt="Entrenamiento"
+                    class="h-full w-full object-cover opacity-60" />
+                <div class="absolute inset-0 bg-gradient-to-l from-black/70 via-black/40 to-transparent"></div>
+                <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-transparent"></div>
+            </div>
+
+            <div
+                class="relative z-10 flex h-full flex-col items-center justify-start mt-48 px-2 sm:mt-0 p-2 text-center md:items-end md:justify-center md:px-28 md:text-right ">
+
+                <span class="mb-4 text-sm font-bold uppercase tracking-widest text-cherry">
+                    Cherry Fit: Hecho para vos
+                </span>
+
+                <h1 class="max-w-xl text-4xl font-extrabold tracking-tight text-white sm:text-6xl">
+                     Disfrutá sin limites,<br />
+                    <span class="text-cherry">entrená sin excusas</span>
+                </h1>
+
+                <p class="mt-6 max-w-md text-lg leading-relaxed text-gray-200">Productos 100% orgánicos, listos para acompañar tu ritmo. Nutrición real para potenciar tus días sin complicaciones.</p>
+            </div>
+        </section>
 
     </header>
 
     <section class="l-wrapper mt-12 mb-12">
         <div class="text-center mb-4">
             <p class="font-semibold uppercase tracking-widest text-cherry">PLANES SEGÚN TU OBJETIVO</p>
-            <h4 class="text-3xl md:text-4xl font-semibold mt-2 text-dark">Encuentra el plan ideal según tu objetivo</h4>
+            <h4 class="text-3xl md:text-4xl font-semibold mt-2 text-primary">Encuentra el plan ideal según tu objetivo
+            </h4>
         </div>
-        
-    <div id="plansContainer" class="l-wrapper flex flex-col gap-6 sm:flex-row sm:gap-4"></div>
 
-       
+        <div id="plansContainer" class="l-wrapper flex flex-col gap-6 sm:flex-row sm:gap-4"></div>
+
+
     </section>
 
-    <main class="l-wrapper " >
+    <main class="l-wrapper ">
         <div class="text-center mb-8">
             <p class="font-semibold uppercase tracking-widest text-cherry">DULCE SIN CULPA</p>
-            <h4 class="text-3xl md:text-4xl font-semibold mt-2 text-dark">Disfruta algo dulce sin salirte de tu objetivo </h4>
-            <p class="text-sm text-slate-800 mt-4 ">Postres hechos con ingredientes seleccionados, pensados para acompañar tu estilo de vida saludable</p>
+            <h4 class="text-3xl md:text-4xl font-semibold mt-2 text-primary">Disfruta algo dulce sin salirte de tu
+                objetivo </h4>
+            <p class="text-sm text-slate-800 mt-4 ">Postres hechos con ingredientes seleccionados, pensados para
+                acompañar tu estilo de vida saludable</p>
         </div>
         <div id="productsContainer" class="flex flex-col sm:flex-row gap-4 justify-center items-center "></div>
-       
+
     </main>
 
     <section class="bg-beige">
         <div class="flex flex-col items-center text-center px-4 py-10">
             <p class="font-semibold uppercase tracking-widest text-cherry">Antes de comenzar</p>
-            <h4 class="text-3xl md:text-4xl font-semibold mt-2 text-dark">Todo lo que necesitas saber antes de comenzar
+            <h4 class="text-3xl md:text-4xl font-semibold mt-2 text-primary">Todo lo que necesitas saber antes de
+                comenzar
             </h4>
             <p class="text-sm text-slate-800 mt-4 max-w-sm">
                 Aquí encontrarás respuestas claras sobre cómo funcionan los planes y qué puedes esperar

@@ -13,53 +13,73 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 
-<body class="bg-slate-50">
+<body>
+    <header class="relative">
+        <nav
+            class="absolute top-0 left-0 z-50 w-full flex items-center justify-between px-6 py-4 md:px-16 lg:px-24 xl:px-32 transition-all">
+            <a href="/">
+                <img class="h-16" src="assets/icons/ui/white_logo.png" alt="Cherry Fit Logo" />
+            </a>
 
-    <header>
-        <div class="bg-zinc-600">
-            <nav class="flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 relative transition-all">
-                <a href="">
-                    <img class="h-16" src="assets/icons/ui/logo.png" alt="">
-                </a>
+            <button aria-label="Menu" id="menu-toggle" class="sm:hidden group">
+                <svg width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="21" height="1.5" rx=".75" fill="white" />
+                    <rect x="8" y="6" width="13" height="1.5" rx=".75" fill="white" />
+                    <rect x="6" y="13" width="15" height="1.5" rx=".75" fill="white" />
+                </svg>
+            </button>
 
-                <button aria-label="Menu" id="menu-toggle" class="sm:hidden">
-                    <svg width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect width="21" height="1.5" rx=".75" fill="#76153C" />
-                        <rect x="8" y="6" width="13" height="1.5" rx=".75" fill="#76153C" />
-                        <rect x="6" y="13" width="15" height="1.5" rx=".75" fill="#76153C" />
-                    </svg>
-                </button>
+            <div id="mobile-menu"
+                class="hidden absolute top-[70px] left-0 w-full bg-black/90 backdrop-blur-md py-6 flex flex-col items-center gap-4 text-white text-lg md:hidden">
+                <a href="index.html" class="hover:underline decoration-2 underline-offset-4 transition-all">Inicio</a>
+                <a href="services.html"
+                    class="hover:underline decoration-2 underline-offset-4 transition-all">Planes</a>
+                <a href="#sobre-mi" class="hover:underline decoration-2 underline-offset-4 transition-all">Sobre Mí</a>
+            </div>
 
-                <div id="mobile-menu"
-                    class="hidden absolute top-[60px] left-0 w-full bg-white shadow-md py-4 flex-col items-start gap-2 px-5 text-sm md:hidden">
-                    <a href="index.html" class="block">Inicio</a>
-                    <a href="services.html" class="block">Planes</a>
-                    <a href="#" class="block">Sobre Mi</a>
+            <div class="hidden sm:flex items-center gap-8 text-white font-medium">
+                <a href="index.html" class="hover:underline decoration-2 underline-offset-4 transition-all">Inicio</a>
+                <a href="services.html"
+                    class="hover:underline decoration-2 underline-offset-4 transition-all">Planes</a>
+                <a href="#sobre-mi" class="hover:underline decoration-2 underline-offset-4 transition-all">Sobre Mí</a>
+            </div>
+        </nav>
+
+        <section class="relative h-screen w-full overflow-hidden bg-black">
+            <div class="absolute inset-0">
+                <img src="assets/img/Banner2.jpeg" alt="Coach Fitness" class="h-full w-full object-cover opacity-60" />
+                <div class="absolute inset-0 bg-gradient-to-b from-black/80 via-black/20 to-black/80"></div>
+            </div>
+
+            <div class="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center sm:pt-24">
+                <span class="mb-4 text-s font-bold uppercase tracking-widest text-white">
+                    Cherry Fit: ENTRENAMIENTO · NUTRICIÓN · PRODUCTOS
+                </span>
+
+                <h1 class="max-w-4xl text-4xl font-extrabold tracking-tight text-white sm:text-6xl md:text-7xl">
+                    Tu mejor versión, <br />
+                    <span class="text-cherry">sin complicaciones</span>
+                </h1>
+
+                <p class=" mt-6 max-w-2xl text-lg leading-relaxed text-gray-200 md:text-xl font-light">
+                    Logra resultados 100% reales. Todo lo que necesitas para evolucionar sin complicaciones, adaptado a
+                    tu ritmo de vida.
+                </p>
+
+                <div class="mt-10 flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                    <a href="https://wa.me/50670034188?text=Hola%20Marilyn%20%F0%9F%91%8B%0AMe%20interesa%20conocer%20m%C3%A1s%20sobre%20lo%20que%20ofreces.%0A%C2%BFMe%20brindas%20m%C3%A1s%20informaci%C3%B3n%2C%20por%20favor%3F%20%F0%9F%98%8A"
+                        class="rounded-full bg-cherry px-10 py-4 text-lg font-bold text-white transition-all hover:scale-105 hover:bg-cherry-50 shadow-lg " target="_blank" rel="noopener noreferrer">
+                        ¡Empieza AHORA!
+                    </a>
                 </div>
-
-                <div class="hidden sm:flex items-center gap-8">
-                    <a href="index.html">Inicio</a>
-                    <a href="services.html">Planes</a>
-                    <a href="#">Sobre Mi</a>
-                </div>
-            </nav>
-            <section class="w-full h-[300px] md:h-[450px] flex flex-col items-center justify-center text-center px-6">
-                <h2 class="text-3xl md:text-5xl font-bold text-white mb-4">
-                    Lorem Ipsum
-                </h2>
-                <h4 class="text-lg md:text-xl text-white max-w-2xl">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit sit amet consectetur adipisicing elit !
-                </h4>
-            </section>
-        </div>
-
-
+            </div>
+        </section>
     </header>
 
     <main class="l-wrapper mb-10">
         <div class="text-center mt-10 mb-8">
             <p class="font-semibold uppercase tracking-widest text-cherry text-sm">ELIGE TU PLAN</p>
-            <h4 class="text-3xl md:text-4xl font-bold mt-2 text-dark">Invierte en tu bienestar hoy</h4>
+            <h4 class="text-3xl md:text-4xl font-bold mt-2 text-primary">Invierte en tu bienestar hoy</h4>
             <p class="text-sm text-slate-600 mt-4 max-w-md mx-auto">
                 Planes flexibles para que entrenes sin presión y con resultados reales.
             </p>
@@ -78,7 +98,7 @@
             </span>
 
             <h2 class="text-white font-black text-5xl md:text-7xl leading-tight mb-4">
-                <span class="text-cherry block md:inline text-6xl md:text-8xl">15%</span>
+                <span class="text-cherry block md:inline text-6xl md:text-8xl">10%</span>
                 DE DESCUENTO
             </h2>
 
@@ -88,72 +108,92 @@
 
             <div class="border-t border-white/20 pt-4">
                 <p class="text-white/70 text-xs md:text-sm uppercase tracking-tighter">
-                    * Promoción válida hasta el 15 de febrero
+                    * Promoción válida por el mes de febrero 2026
                 </p>
             </div>
         </div>
     </section>
 
-
-    <section class="l-wrapper py-10 px-4 max-w-7xl mx-auto">
-
-        <div class="text-center mb-8">
-            <p class="font-semibold uppercase tracking-widest text-cherry">SOBRE MARILYN SOTELO</p>
-            <h4 class="text-3xl md:text-4xl font-semibold mt-2 text-dark">No es solo ejercicio, es un proceso contigo
-            </h4>
+    <section id="sobre-mi"
+        class="relative px-4 max-w-7xl mx-auto rounded-[3rem] my-10 border border-white scroll-mt-40">
+        <div class="text-center mb-16">
+            <p class="font-bold uppercase tracking-[0.2em] text-cherry text-sm">Sobre Marilyn Sotelo</p>
+            <h2 class="text-4xl md:text-5xl font-extrabold mt-4  max-w-3xl mx-auto leading-tight text-primary">
+                No es solo ejercicio, es un <span class="text-cherry">proceso contigo</span>
+            </h2>
         </div>
 
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 xl:gap-12 items-center">
 
-            <div class="flex justify-center">
-                <img src="assets/img/mary.png" alt="trainer"
-                    class="w-full max-w-xs h-auto object-contain rounded-2xl shadow-lg brightness-105 hover:shadow-2xl hover:scale-[1.02] transition-all duration-500 ease-in-out saturate-110">
+            <div class="order-2 lg:order-1 flex flex-col gap-10 z-20">
+                <div
+                    class="group bg-white p-8 rounded-3xl shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-500 lg:-rotate-2 hover:rotate-0">
+                    <div
+                        class="w-12 h-12 bg-cherry/10 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <img class="w-10 h-10" src="assets/icons/ui/graduation.png" alt="icon">
+                    </div>
+                    <h5 class="font-bold text-2xl mb-3 text-primary">Formación y experiencia</h5>
+                    <p class="text-gray-600 leading-relaxed text-base">
+                        Entrenadora <strong>certificada a nivel internacional</strong> por la IIAFF. Mi enfoque está
+                        basado en resultados reales y años de experiencia profesional.
+                    </p>
+                </div>
+
+                <div
+                    class="group bg-white p-8 rounded-3xl shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-500 lg:rotate-1 hover:rotate-0 lg:ml-8">
+                    <div
+                        class="w-12 h-12 bg-cherry/10 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <img class="w-10 h-10" src="assets/icons/ui/habits.png" alt="icon">
+                    </div>
+                    <h5 class="font-bold text-2xl mb-3 text-primary">Hábitos sostenibles</h5>
+                    <p class="text-gray-600 leading-relaxed text-base">
+                        Trabajamos juntos tu <strong>alimentación y mentalidad.</strong> El objetivo es diseñar un
+                        estilo de vida saludable para lograr cambios que duren siempre.
+                    </p>
+                </div>
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="order-1 lg:order-2 flex justify-center relative group min-h-[400px]">
+                <div
+                    class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 md:w-80 md:h-80 bg-cherry/5 rounded-full blur-3xl -z-10 group-hover:bg-cherry/10 transition-colors duration-700">
+                </div>
 
-                <div class="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-xl transition-shadow">
-                    <div>
-                        <img class="w-10 h-10" src="assets/icons/ui/education.png" alt="icon">
-                    </div>
-                    <h5 class="font-semibold text-lg mt-2 mb-2">Formación y experiencia</h5>
-                    <p class="text-sm text-gray-600 leading-relaxed">Entrenadora certificada internacionalmente por el
-                        IIAFF, con enfoque en resultados reales y procesos conscientes.</p>
-                </div> <!--Card-->
-
-                <div class="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-xl transition-shadow">
-                    <div>
-                        <img class="w-10 h-10" src="assets/icons/ui/bullseye.png" alt="icon">
-                    </div>
-                    <h5 class="font-semibold text-lg mt-2 mb-2">Acompañamiento real</h5>
-                    <p class="text-sm text-gray-600 leading-relaxed">Te acompaño paso a paso en tu proceso, adaptando
-                        cada plan a tu realidad, no a fórmulas genéricas.</p>
-                </div> <!--Card-->
-
-                <div class="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-xl transition-shadow">
-                    <div>
-                        <img class="w-10 h-10" src="assets/icons/ui/apple.png" alt="icon">
-                    </div>
-                    <h5 class="font-semibold text-lg mt-2 mb-2">Hábitos sostenibles</h5>
-                    <p class="text-sm text-gray-600 leading-relaxed">Trabajo contigo alimentación, rutina y mentalidad
-                        para lograr cambios que puedas mantener en el tiempo.</p>
-                </div> <!--Card-->
-
-                <div class="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-xl transition-shadow">
-                    <div>
-                        <img class="w-10 h-10" src="assets/icons/ui/user.png" alt="icon">
-                    </div>
-                    <h5 class="font-semibold text-lg mt-2 mb-2">Planes hechos para ti</h5>
-                    <p class="text-sm text-gray-600 leading-relaxed">Cada programa se adapta a tu nivel, tu tiempo y tus
-                        objetivos para que entrenar se sienta posible, no pesado.</p>
-                </div> <!--Card-->
-
-
+                <img src="assets/img/Mary3.png" alt="Marilyn Sotelo"
+                    class="w-full max-w-[280px] md:max-w-[320px] h-auto object-contain z-10 transition-all duration-700 group-hover:scale-105 filter drop-shadow-[0_20px_30px_rgba(0,0,0,0.1)]">
             </div>
+
+            <div class="order-3 lg:order-3 flex flex-col gap-10 z-20">
+                <div
+                    class="group bg-white p-8 rounded-3xl shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-500 lg:rotate-2 hover:rotate-0">
+                    <div
+                        class="w-12 h-12 bg-cherry/10 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <img class="w-10 h-10" src="assets/icons/ui/trainer.png" alt="icon">
+                    </div>
+                    <h5 class="font-bold text-2xl mb-3 text-primary">Acompañamiento real</h5>
+                    <p class="text-gray-600 leading-relaxed text-base">
+                        Entrena conmigo para <strong>avanzar con seguridad.</strong> Olvida los estándares perfectos y
+                        enfócate en un plan que integra entrenamiento y hábitos.
+                    </p>
+                </div>
+
+                <div
+                    class=" bg-white p-8 rounded-3xl shadow-sm border border-slate-100 hover:shadow-xl transition-all duration-500 lg:-rotate-1 hover:rotate-0 lg:mr-8">
+                    <div
+                        class="w-12 h-12 bg-cherry/10 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <img class="w-10 h-10" src="assets/icons/ui/plans.png" alt="icon">
+                    </div>
+                    <h5 class="font-bold text-2xl mb-3 text-primary">Planes para ti</h5>
+                    <p class="text-gray-600 leading-relaxed text-base">
+                        Programas personalizados que se <strong>adaptan a tu nivel actual</strong> y objetivos. La clave
+                        es un progreso constante para que nunca dejes de avanzar.
+                    </p>
+                </div>
+            </div>
+
         </div>
-
 
     </section>
+
 
 
     <footer>
