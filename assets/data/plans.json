@@ -1,12 +1,12 @@
 [
   {
-    "title": "Plan Déficit",
+    "title": "Plan Definición",
     "description": "Pensado para personas que quieren bajar grasa corporal. Incluye guía nutricional, entrenamiento adaptado y seguimiento para lograr resultados reales y sostenibles.",
     "icon": "assets/img/plans/fitness.webp"
   },
   {
-    "title": "Plan Suplementación",
-    "description": "Para quienes ya entrenan y quieren potenciar sus resultados. Recomendaciones claras sobre qué suplementos usar, cómo y cuándo tomarlos.",
+    "title": "Plan aumento masa muscular",
+    "description": "Ideal si entrenas y no ves resultados reales , te ayudo a potenciar tus resultados en entrenamiento totalmente enfocado en aumento fuerza, alimentación correcta y suplementacion .",
     "icon": "assets/img/plans/whey.webp"
   },
   {
