@@ -31,7 +31,7 @@ export async function initProducts(containerId = 'productsContainer') {
           </div>
 
           <div class="flex items-center text-gray-500">
-            <img src="assets/icons/ui/person.png" class="h-4 w-4 mr-1.5 opacity-70" alt="icon person">
+            <img src="assets/img/ui/portion.png" class="h-4 w-4 mr-1.5 opacity-70" alt="icon person">
             <small class="text-xs font-medium">${product.portion}</small>
           </div>
 
