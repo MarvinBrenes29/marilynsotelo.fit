@@ -10,12 +10,16 @@ export async function initPricing(containerId = 'pricingContainer') {
 
     const plans = await response.json();
 
-    container.innerHTML = plans.map(plan => `
-      <div class="w-full max-w-[300px] h-[520px] sm:h-[535px] bg-white rounded-xl shadow-md border border-gray-100 hover:shadow-xl transition-shadow overflow-hidden flex flex-col">
+    container.innerHTML = plans.map(plan => {
+      const baseText = `Hola Marilyn 👋 Estoy interesado en el *${plan.title}*. ¿Me podrías brindar más información? 😊`;
+      const waLink = `https://wa.me/50670034188?text=${encodeURIComponent(baseText)}`;
+
+      return `
+      <div class="w-full w-full h-full bg-white rounded-xl shadow-md border border-gray-100 hover:shadow-xl transition-shadow overflow-hidden flex flex-col">
         
         <div class="py-5 border-b border-gray-100 text-center">
           <h2 class="text-xl font-bold text-primary">${plan.title}</h2>
-          <h4 class="text-sm text-grayx-800">${plan.subtitle}</h2>
+          <h4 class="text-semibold text-cherry">${plan.subtitle}</h4>
         </div>
 
         <div class="p-6 flex flex-col flex-grow">
@@ -38,13 +42,13 @@ export async function initPricing(containerId = 'pricingContainer') {
             `).join('')}
           </ul>
 
-          <a href="${plan.link}" class="block w-full py-3 px-4 bg-cherry text-white text-center font-bold rounded-lg hover:brightness-110 transition-all shadow-md active:scale-95">
+          <a href="${waLink}" target="_blank" rel="noopener noreferrer" class="block w-full py-3 px-4 bg-cherry text-white text-center font-bold rounded-lg hover:brightness-110 transition-all shadow-md active:scale-95">
             ${plan.buttonText}
           </a>
 
         </div>
       </div>
-    `).join('');
+    `}).join('');
 
   } catch (error) {
     console.error('Error cargando pricing:', error);
