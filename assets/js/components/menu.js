@@ -2,7 +2,7 @@ export function initMenu() {
   const toggle = document.getElementById("menu-toggle");
   const menu = document.getElementById("mobile-menu");
 
-  if (!toggle || !menu) return; // protección profesional
+  if (!toggle || !menu) return;
 
   toggle.addEventListener("click", () => {
     if (menu.classList.contains("hidden")) {

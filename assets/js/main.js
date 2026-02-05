@@ -1,4 +1,4 @@
-import { initMenu } from './menu.js';
+import { initMenu } from './components/menu.js';
 import { initFAQ } from './components/faqs.js';
 import { initPlans } from './components/plans.js';
 import { initPricing } from './components/pricing.js';

@@ -24,69 +24,71 @@
 </head>
 
 <body>
-    <header class="relative">
-        <nav
-            class="absolute top-0 left-0 z-50 w-full flex items-center justify-between px-6 py-4 md:px-16 lg:px-24 xl:px-32 transition-all">
-            <a href="/">
-                <img class="h-16" src="assets/img/ui/white_logo.png" alt="Cherry Fit Logo" />
+<header class="relative">
+    <nav class="absolute top-0 left-0 z-50 w-full transition-all">
+        <div class="l-wrapper flex items-center justify-between py-6">
+
+            <a href="/" class="hover:opacity-90 transition-opacity">
+                <img class="h-14 md:h-20 w-auto" src="assets/img/ui/white_logo.png" alt="Cherry Fit Logo" />
             </a>
 
-            <button aria-label="Menu" id="menu-toggle" class="sm:hidden group">
-                <svg width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="21" height="1.5" rx=".75" fill="white" />
-                    <rect x="8" y="6" width="13" height="1.5" rx=".75" fill="white" />
-                    <rect x="6" y="13" width="15" height="1.5" rx=".75" fill="white" />
+            <button aria-label="Abrir menú" aria-expanded="false" id="menu-toggle"
+                class="sm:hidden text-white focus:outline-none">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
                 </svg>
             </button>
 
-            <div id="mobile-menu"
-                class="hidden absolute top-[70px] left-0 w-full bg-black/90 backdrop-blur-md py-6 flex flex-col items-center gap-4 text-white text-lg md:hidden">
+            <div class="hidden sm:flex items-center gap-8 text-white text-lg font-medium">
                 <a href="index.html" class="hover:underline decoration-2 underline-offset-4 transition-all">Planes</a>
-                <a href="services.html" class="hover:underline decoration-2 underline-offset-4 transition-all">Mis
-                    Productos</a>
+                <a href="services.html" class="hover:underline decoration-2 underline-offset-4 transition-all">Mis Productos</a>
                 <a href="#sobre-mi" class="hover:underline decoration-2 underline-offset-4 transition-all">Sobre Mí</a>
             </div>
+        </div>
 
-            <div class="hidden sm:flex items-center gap-8 text-white font-medium">
-                <a href="index.html" class="hover:underline decoration-2 underline-offset-4 transition-all">Planes</a>
-                <a href="services.html" class="hover:underline decoration-2 underline-offset-4 transition-all">Mis
-                    Productos</a>
-                <a href="#sobre-mi" class="hover:underline decoration-2 underline-offset-4 transition-all">Sobre Mí</a>
+        <div id="mobile-menu"
+            class="hidden absolute top-full left-0 w-full bg-black/95 backdrop-blur-md py-8 flex flex-col items-center gap-6 text-white text-xl font-medium sm:hidden shadow-2xl">
+            <a href="index.html" class="hover:underline decoration-2 underline-offset-4 transition-all">Planes</a>
+            <a href="services.html" class="hover:underline decoration-2 underline-offset-4 transition-al">Mis Productos</a>
+            <a href="#sobre-mi" class="hover:underline decoration-2 underline-offset-4 transition-al">Sobre Mí</a>
+        </div>
+    </nav>
+
+    <section class="relative h-screen w-full overflow-hidden bg-black">
+        <div class="absolute inset-0">
+            <img src="assets/img/hero/first_banner.jpeg" alt="Coach Fitness"
+                class="h-full w-full object-cover opacity-60" />
+            <div class="absolute inset-0 bg-gradient-to-b from-black/80 via-black/20 to-black/80"></div>
+        </div>
+
+        <div class="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center sm:pt-24">
+            <span class="mb-4 text-s font-bold uppercase tracking-widest text-white">
+                Cherry Fit: ENTRENAMIENTO · NUTRICIÓN · PRODUCTOS
+            </span>
+
+            <h1 class="max-w-4xl text-4xl font-extrabold tracking-tight text-white sm:text-6xl md:text-7xl">
+                Tu mejor versión, <br />
+                <span class="text-cherry">sin complicaciones</span>
+            </h1>
+
+            <p class="mt-6 max-w-2xl text-lg leading-relaxed text-gray-200 md:text-xl font-light">
+                Logra resultados 100% reales. Todo lo que necesitas para evolucionar
+                sin complicaciones, adaptado a tu ritmo de vida.
+            </p>
+
+            <div class="mt-10 flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                <a href="https://wa.me/50670034188?text=Hola%20Marilyn%20%F0%9F%91%8B%0AMe%20interesa%20conocer%20m%C3%A1s%20sobre%20lo%20que%20ofreces.%0A%C2%BFMe%20brindas%20m%C3%A1s%20informaci%C3%B3n%2C%20por%20favor%3F%20%F0%9F%98%8A"
+                    class="rounded-full bg-cherry px-10 py-4 text-lg font-bold text-white transition-all hover:scale-105 hover:bg-cherry-50 shadow-lg"
+                    target="_blank" rel="noopener noreferrer">
+                    ¡Empieza AHORA!
+                </a>
             </div>
-        </nav>
-
-        <section class="relative h-screen w-full overflow-hidden bg-black">
-            <div class="absolute inset-0">
-                <img src="assets/img/hero/first_banner.jpeg" alt="Coach Fitness"
-                    class="h-full w-full object-cover opacity-60" />
-                <div class="absolute inset-0 bg-gradient-to-b from-black/80 via-black/20 to-black/80"></div>
-            </div>
-
-            <div class="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center sm:pt-24">
-                <span class="mb-4 text-s font-bold uppercase tracking-widest text-white">
-                    Cherry Fit: ENTRENAMIENTO · NUTRICIÓN · PRODUCTOS
-                </span>
-
-                <h1 class="max-w-4xl text-4xl font-extrabold tracking-tight text-white sm:text-6xl md:text-7xl">
-                    Tu mejor versión, <br />
-                    <span class="text-cherry">sin complicaciones</span>
-                </h1>
-
-                <p class="mt-6 max-w-2xl text-lg leading-relaxed text-gray-200 md:text-xl font-light">
-                    Logra resultados 100% reales. Todo lo que necesitas para evolucionar
-                    sin complicaciones, adaptado a tu ritmo de vida.
-                </p>
-
-                <div class="mt-10 flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                    <a href="https://wa.me/50670034188?text=Hola%20Marilyn%20%F0%9F%91%8B%0AMe%20interesa%20conocer%20m%C3%A1s%20sobre%20lo%20que%20ofreces.%0A%C2%BFMe%20brindas%20m%C3%A1s%20informaci%C3%B3n%2C%20por%20favor%3F%20%F0%9F%98%8A"
-                        class="rounded-full bg-cherry px-10 py-4 text-lg font-bold text-white transition-all hover:scale-105 hover:bg-cherry-50 shadow-lg"
-                        target="_blank" rel="noopener noreferrer">
-                        ¡Empieza AHORA!
-                    </a>
-                </div>
-            </div>
-        </section>
-    </header>
+        </div>
+    </section>
+</header>
 
     <main class="l-wrapper mb-10">
         <div class="text-center mt-10 mb-8">
